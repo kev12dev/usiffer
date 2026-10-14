@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Usiffer Soluções Industriais: usinagem, fabricação de peças, manutenção e recuperação de componentes industriais. Solicite um orçamento.">
+  <title>Usiffer | Soluções Industriais</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#inicio" aria-label="Usiffer - início">
+      <span class="brand-mark">⚙</span>
+      <span><strong>USIFFER</strong><small>SOLUÇÕES INDUSTRIAIS</small></span>
+    </a>
+    <nav>
+      <a href="#servicos">Serviços</a>
+      <a href="#produtos">Produtos</a>
+      <a href="#orcamento">Orçamento</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-copy">
+        <p class="eyebrow">PRECISÃO • CONFIANÇA • SOLUÇÕES INDUSTRIAIS</p>
+        <h1>Soluções industriais feitas para a sua necessidade.</h1>
+        <p>Usinagem, fabricação de peças e recuperação de componentes para aplicações industriais.</p>
+        <a class="button button-orange" href="#orcamento">Solicitar orçamento <span>↗</span></a>
+      </div>
+      <div class="hero-art" aria-label="Ilustração decorativa de engrenagem">
+        <div class="ring">⚙</div>
+        <span class="art-caption">ENGENHARIA E USINAGEM</span>
+      </div>
+    </section>
+
+    <section class="section" id="servicos">
+      <div class="section-heading">
+        <p class="eyebrow">O QUE FAZEMOS</p>
+        <h2>Serviços industriais</h2>
+        <p>Entre em contato para avaliar sua necessidade e receber um orçamento.</p>
+      </div>
+      <div class="cards">
+        <article class="service-card"><span class="card-icon">⚙</span><h3>Usinagem</h3><p>Fabricação e acabamento de componentes conforme a aplicação e as especificações do projeto.</p></article>
+        <article class="service-card"><span class="card-icon">⌁</span><h3>Fabricação de peças</h3><p>Peças industriais sob demanda, com análise do desenho ou das informações fornecidas.</p></article>
+        <article class="service-card"><span class="card-icon">🔧</span><h3>Manutenção</h3><p>Apoio na manutenção de componentes e equipamentos industriais.</p></article>
+        <article class="service-card"><span class="card-icon">↻</span><h3>Recuperação</h3><p>Avaliação e recuperação de peças e componentes, conforme viabilidade técnica.</p></article>
+      </div>
+    </section>
+
+    <section class="section section-dark" id="produtos">
+      <div class="section-heading">
+        <p class="eyebrow">CATÁLOGO</p>
+        <h2>Peças e componentes</h2>
+        <p>Veja alguns exemplos de categorias. A disponibilidade e a fabricação são confirmadas após análise da solicitação.</p>
+      </div>
+      <div class="product-grid">
+        <article class="product-card"><div class="product-symbol">⦿</div><h3>Eixos e hastes</h3><p>Componentes para diferentes aplicações industriais.</p><button class="text-button" data-item="Eixos e hastes">Consultar esta categoria →</button></article>
+        <article class="product-card"><div class="product-symbol">⚙</div><h3>Engrenagens e polias</h3><p>Peças conforme especificações e necessidade de aplicação.</p><button class="text-button" data-item="Engrenagens e polias">Consultar esta categoria →</button></article>
+        <article class="product-card"><div class="product-symbol">▤</div><h3>Buchas e alojamentos</h3><p>Componentes usinados sob consulta.</p><button class="text-button" data-item="Buchas e alojamentos">Consultar esta categoria →</button></article>
+        <article class="product-card"><div class="product-symbol">⌗</div><h3>Peças sob desenho</h3><p>Envie as informações do projeto para avaliação.</p><button class="text-button" data-item="Peça sob desenho">Consultar esta categoria →</button></article>
+      </div>
+    </section>
+
+    <section class="quote-section" id="orcamento">
+      <div>
+        <p class="eyebrow">FALE COM A USIFFER</p>
+        <h2>Vamos avaliar o seu projeto?</h2>
+        <p>Preencha os dados abaixo. O site abrirá o WhatsApp com a mensagem pronta para você enviar.</p>
+        <p class="small-note">Se tiver desenho técnico ou fotos da peça, você poderá anexá-los diretamente na conversa do WhatsApp.</p>
+      </div>
+      <form id="quote-form">
+        <label for="nome">Nome / empresa</label>
+        <input id="nome" name="nome" placeholder="Como podemos chamar você?" required>
+        <label for="tipo">O que você precisa?</label>
+        <select id="tipo" name="tipo" required>
+          <option value="">Selecione uma opção</option>
+          <option>Usinagem</option>
+          <option>Fabricação de peça</option>
+          <option>Manutenção industrial</option>
+          <option>Recuperação de componente</option>
+          <option>Outro / ainda preciso avaliar</option>
+        </select>
+        <label for="detalhes">Detalhes da solicitação</label>
+        <textarea id="detalhes" name="detalhes" rows="4" placeholder="Peça, material, quantidade, prazo ou outras informações"></textarea>
+        <button class="button button-orange" type="submit">Continuar pelo WhatsApp ↗</button>
+        <p class="form-hint">Nenhuma mensagem será enviada automaticamente. Você confere e envia no WhatsApp.</p>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <a class="brand brand-footer" href="#inicio"><span class="brand-mark">⚙</span><span><strong>USIFFER</strong><small>SOLUÇÕES INDUSTRIAIS</small></span></a>
+    <p>Usinagem • Fabricação • Manutenção • Recuperação</p>
+    <p class="copyright">© <span id="year"></span> Usiffer Soluções Industriais</p>
+  </footer>
+  <a class="floating-whatsapp" href="https://wa.me/5511958244365?text=Ol%C3%A1%2C%20gostaria%20de%20solicitar%20um%20or%C3%A7amento%20com%20a%20Usiffer." target="_blank" rel="noopener" aria-label="Conversar com a Usiffer pelo WhatsApp">WhatsApp ↗</a>
+  <script src="script.js"></script>
+</body>
+</html>
