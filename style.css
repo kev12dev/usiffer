@@ -58,3 +58,83 @@
     height: 280px;
   }
 }
+/* CONTATO E LOCALIZAÇÃO USIFFER */
+.contact-location {
+  display: grid;
+  grid-template-columns: 1fr 1.1fr;
+  gap: 40px;
+  align-items: center;
+  padding: 70px 6%;
+  background: #080d27;
+  color: #ffffff;
+}
+
+.contact-info {
+  max-width: 540px;
+}
+
+.contact-info .eyebrow,
+.contact-info h3 {
+  color: #ff6a00;
+}
+
+.contact-info h2 {
+  font-size: 38px;
+  margin: 10px 0 16px;
+}
+
+.contact-info h2 span {
+  color: #ff6a00;
+}
+
+.contact-info p {
+  line-height: 1.7;
+}
+
+.contact-info a:not(.button) {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.contact-info a:not(.button):hover {
+  color: #ff6a00;
+}
+
+.contact-info h3 {
+  margin: 22px 0 5px;
+}
+
+.contact-info .button {
+  display: inline-block;
+  margin-top: 20px;
+  text-decoration: none;
+}
+
+.contact-map {
+  width: 100%;
+  overflow: hidden;
+  border-radius: 14px;
+  border: 1px solid #ff6a00;
+}
+
+.contact-map iframe {
+  display: block;
+  width: 100%;
+  min-height: 350px;
+}
+
+@media (max-width: 760px) {
+  .contact-location {
+    grid-template-columns: 1fr;
+    gap: 28px;
+    padding: 45px 20px;
+  }
+
+  .contact-info h2 {
+    font-size: 30px;
+  }
+
+  .contact-map iframe {
+    min-height: 300px;
+  }
+}
