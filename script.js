@@ -26,7 +26,7 @@ document.getElementById("quote-form").addEventListener("submit", (event) => {
     `Detalhes: ${detalhes || "Ainda não informado."}`,
     "",
     "Posso enviar fotos ou desenho técnico por aqui?"
-  ].join("\\n");
+  ].join("\n");
   openWhatsApp(message);
 });
 
